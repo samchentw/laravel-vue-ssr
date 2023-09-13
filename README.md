@@ -1,13 +1,17 @@
 # 使用方式
 
-## 後端執行
+## 後端執行(開發)
 
 ```
 php artisan serve
 ```
 
-## 前端執行
+## 前端執行(開發)
+```
+npm run dev
+```
 
+## 佈署&架起nodejs
 ```
 npm run build
 php artisan inertia:start-ssr
