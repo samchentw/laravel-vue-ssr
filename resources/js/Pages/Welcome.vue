@@ -1,12 +1,14 @@
 <script setup>
 import { Head, Link } from '@inertiajs/vue3';
 
-defineProps({
+const props = defineProps({
     canLogin: Boolean,
     canRegister: Boolean,
     laravelVersion: String,
     phpVersion: String,
 });
+
+console.log(props.phpVersion)
 </script>
 
 <template>
